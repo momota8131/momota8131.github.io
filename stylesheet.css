@@ -1,0 +1,50 @@
+body {
+	font-family: "Avenir Next";	// bodyのフォントを指定する。
+}
+li{
+	list-style: none;	// リストの黒点を消す
+}
+
+/*--------------------------------------------------*/
+.header{
+	background-color: #26d0c9;
+	color: #fff;
+	height: 90px;
+}
+
+.header-logo{
+	float: left;
+	font-size: 36px;
+	padding: 20px 40px;
+}
+
+.header-list{
+	float: left;
+}
+
+.header-list li{
+	float: left;
+	padding: 33px 20px;
+}
+
+/*--------------------------------------------------*/
+.footer{
+	background-color: #2f5167;
+	color: #fff;
+	height: 120px;
+	padding: 40px;
+}
+
+.footer-logo{
+	float: left;
+	font-size: 32px;
+}
+
+.footer-list{
+	float: right;
+}
+
+.footer-list li{
+	padding-bottom: 20px;
+}
+
